@@ -32,7 +32,7 @@ const mapComment = require("./helpers/map-comment");
 const port = 3030;
 const app = express();
 
-app.use(express.static("../blog/build"));
+app.use(express.static("../blog-frontend/build"));
 app.use(cookieParser());
 app.use(express.json());
 
